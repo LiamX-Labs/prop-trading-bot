@@ -1,4 +1,4 @@
-# CFT Prop Trading Bot
+# Prop Trading Bot
 
 > Advanced cryptocurrency trading bot with intelligent breakeven management, comprehensive risk controls, and detailed logging.
 
@@ -13,7 +13,7 @@
 ```bash
 # Clone repository
 git clone <repository-url>
-cd cftprop
+cd prop-trading-bot
 
 # Create virtual environment
 python -m venv venv
