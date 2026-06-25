@@ -100,6 +100,41 @@ All documentation has been organized in the `docs/` directory:
 - **Symbol-Level Restrictions**: Prevent overtrading
 - **Automatic Cleanup**: Memory management
 
+## 📊 Performance Reports
+
+Sample output from the automated performance analysis (`2025-10-25 → 2026-04-01`). These charts are generated as part of the Telegram + PDF reporting pipeline.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/equity-curve.png" alt="Equity curve" width="100%"><br>
+      <sub><b>Equity Curve</b> — account growth vs initial balance</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/benchmark-comparison.png" alt="Equity vs benchmarks" width="100%"><br>
+      <sub><b>Strategy vs Benchmarks</b> — outperforms BTC &amp; S&amp;P 500</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/drawdown.png" alt="Drawdown" width="100%"><br>
+      <sub><b>Drawdown</b> — peak-to-trough risk over time</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/win-loss-distribution.png" alt="Win/loss distribution" width="100%"><br>
+      <sub><b>Win/Loss Distribution</b> — P&amp;L histogram &amp; ratio</sub>
+    </td>
+  </tr>
+</table>
+
+**Quarterly breakdown** — net P&L, return %, and win rate per quarter:
+
+![Quarterly performance](docs/screenshots/quarterly-performance.png)
+
+**Day-of-week breakdown** — P&L, win rate, and average trade by weekday:
+
+![Day of week performance](docs/screenshots/day-of-week-performance.png)
+
 ## 🏗️ Project Structure
 
 ```
