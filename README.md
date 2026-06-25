@@ -135,6 +135,23 @@ Sample output from the automated performance analysis (`2025-10-25 → 2026-04-0
 
 ![Day of week performance](docs/screenshots/day-of-week-performance.png)
 
+### 📲 Live Telegram Alerts & Daily Report
+
+Real-time trade alerts and the automated daily performance report, delivered straight to Telegram:
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/telegram-trade-alerts.png" alt="Live Telegram trade alerts" width="100%"><br>
+      <sub><b>Live Trade Alerts</b> — entries, TP/SL, breakeven moves &amp; closures</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/telegram-daily-report.png" alt="Daily performance report in Telegram" width="100%"><br>
+      <sub><b>Daily Performance Report</b> — full metrics pushed every day</sub>
+    </td>
+  </tr>
+</table>
+
 ## 🏗️ Project Structure
 
 ```
